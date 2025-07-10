@@ -11,3 +11,5 @@ for coin in coin_types:
     n %= coin
     
 print(count)
+
+#화폐 종류 k개  -> 시간 복잡도: O(k)
