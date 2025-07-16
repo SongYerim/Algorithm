@@ -19,3 +19,7 @@ for i in range(1,n):
         cnt += 1
 
 print(cnt)
+
+#종료시간 뒤 제일 빠른 다음회의 선택
+#종료시간 기준으로 정렬 
+#end < start면 회의 선택 

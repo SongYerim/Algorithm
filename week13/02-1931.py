@@ -1,4 +1,4 @@
-# 1931 - greedy 
+# 1931 회의실 배정 - greedy 
 import sys
 
 n = int(input())

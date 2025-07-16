@@ -1,4 +1,4 @@
-# 11053 - dp
+# 11053 가장 긴 증가하는 부분 - dp
 
 n = int(input())
 arr = list(map(int, input().split()))
