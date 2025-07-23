@@ -1,0 +1,13 @@
+파이썬 2차원 배열 입력받기 - 3가지 방법
+1. 원소 하나씩 입력받기
+arr = [for _ in range(B)] #B = 2차원 배열의 가로길이
+for i in range(B):
+    arr[i] = list(map(int, input().split()))
+
+2. 원소에 list 추가하기
+arr = []
+for i in range(B):
+    arr.append(list(map(int, input().split())))
+
+3. 선언과 동시에 입력받기
+arr = [list(map(int, input().split())) for _ in range(B)]
